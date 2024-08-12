@@ -1,0 +1,20 @@
+
+.testimonial-slider {
+  background-color: inherit; /* Keeps the background color consistent */
+  color: black; /* Ensures text readability against the background */
+  padding: 60px 0;
+}
+
+.testimonial-slider .carousel-item {
+  text-align: right; /* Aligns the text to the right */
+}
+
+.testimonial-slider .carousel-item img {
+  margin-right: auto; /* Ensures the image stays on the right side */
+  float: right; /* Float the image to the right */
+}
+
+.testimonial-slider blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+}
