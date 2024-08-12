@@ -22,7 +22,7 @@ const WeatherWidget = () => {
   }, []);
 
   return (
-    <div className="weather-widget">
+    <div className="weather-widget-container">
       {weather ? (
         <>
           <h4>{weather.name}</h4>

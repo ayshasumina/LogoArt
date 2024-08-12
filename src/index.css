@@ -38,25 +38,42 @@ header {
     border: 1px solid ; /* Optional: Add a border to the button */
     background-color: transparent; /* Keeps the button background transparent */
   }
-  .weather-widget {
+  .weather-widget-container {
     padding: 15px;
     background-color: honeydew;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-right: 550px;
-    margin-left: 550px;
-  
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
   }
-  .weather-widget h4 {
+  
+  .weather-widget-container h4 {
     text-align: center;
     margin-bottom: 10px;
     font-size: 1.5rem;
   }
   
-  .weather-widget p {
+  .weather-widget-container p {
     margin: 0;
     font-size: 1.2rem;
   }
+  
+  @media (max-width: 768px) {
+    .weather-widget-container {
+      max-width: 90%;
+      padding: 10px;
+    }
+  
+    .weather-widget-container h4 {
+      font-size: 1.3rem;
+    }
+  
+    .weather-widget-container p {
+      font-size: 1rem;
+    }
+  }
+  
   #features {
     background-color: #ffffff; /* Background color can be adjusted as needed */
     padding: 60px 0;

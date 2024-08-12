@@ -51,6 +51,9 @@ npm create vite@latest project-name -- --template react
 ## github repository
 
 
+## deployemnt
+https://logo-art.vercel.app/
+
 ## Development server
 
 Run `npm run dev` . Navigate to ` http://localhost:5173/`. The application will automatically reload if you change any of the source files.
